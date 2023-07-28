@@ -146,7 +146,7 @@ header a {
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
     outline: none;
-    width: 310px;
+    width: 100%;
     color: black;
     font-size: 20px;
     text-align: center;
@@ -607,7 +607,7 @@ footer a {
     }
     
     .Recherche-Milieu  {
-        width: 70%;
+        width: 50%;
     }
 
     .rechercher  {
@@ -615,7 +615,9 @@ footer a {
 
     }
 
-    
+    .Recherche-Milieu input {
+        font-size: 15px;
+    }
 
     .Recherche-Gauche i {
         display: flex;
@@ -627,7 +629,7 @@ footer a {
     .Recherche-Droite {
         display: flex;
         align-items: center; 
-        gap: 10px; 
+
     }
     
 
@@ -692,6 +694,13 @@ footer a {
     .populaires-cards {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .hebergements {
